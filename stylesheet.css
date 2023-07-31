@@ -1,7 +1,7 @@
 h1 {
     margin: 0px;
     text-align: center;
-    color: rgb(224, 240, 250);
+    color: rgb(255, 255, 255);
     font-size: 36px;
     font-family: "Oswald", serif;
 
@@ -9,94 +9,41 @@ h1 {
     letter-spacing: 5px;
 }
 
+h2 {
+    font-size: 28px;
+    font-family: "Oswald", serif;
+    letter-spacing: 1px;
+}
+
 i {
     margin-right: 20px
 }
 
-.mainHeader {
-    font-size: 72px;
-    font-family: monospace;
-}
-
-header {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    background-color: #fb8cc6;
-
-    position: sticky;
-    top: 0px;
-}
-
-.temp {
-    width: 30%;
-    height: 100%;
-}
-
-.temp2 {
-    width: 10%;
-    height: 100%;
-}
-
-nav {
-    width: 70%;
-    height: 100%;
-}
-
-nav ul {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-nav ul li {
-    margin-left: 10px;
-}
-
-section {
+iframe {
     width: 100%;
     height: 50%;
-    background-color: rgb(107, 168, 107);
 }
 
-article {
-    width: 100%;
-    height: 50%;
-    background-color: rgb(8, 75, 28);
+.gameCharacter {
+    width: 720px;
+    height: 456px;
+
+    position: fixed;
+    top: 10px;
 }
 
-aside {
-    width: 50%;
-    height: 100%;
-    background-color: rgb(43, 115, 133);
+body {
+    margin: 0px;
+    background-color: rgb(43, 125, 145);
 }
 
-footer {
-    width: 100%;
-    height: 125px;
-    background-color: rgb(85, 16, 16);
-}
-
-footer div {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 10px;
-}
-
-img {
-    width: 100px;
-    height: 100px;
-}
-
-a {
+nav a {
     width: 300px;
     height: 50px;
     font-family: monospace;
     font-size: 20px;
     background-color: rgb(98, 207, 189);
-    border: 2px solid black;
+    border: 2px solid #000000;
 
     text-decoration: none;
 
@@ -112,12 +59,207 @@ a:visited {
     color: aliceblue;
 }
 
-a:hover {
+nav a:hover {
     background-color: rgb(107, 193, 199);
+    transform: scale(1.025);
+}
+
+footer a:hover {
+    background-color: rgb(107, 193, 199);
+    transform: scale(1.03);
 }
 
 a:active {
     background-color: rgb(7, 61, 65);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fb8cc6;
+
+    align-items: center;
+
+    position: sticky;
+    top: 0px;
+
+    z-index: 3;
+}
+
+nav {
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+
+    padding-right: 15px;
+}
+
+nav a {
+    display: flex;
+    margin-left: 15px;
+
+    font-size: 24px;
+    font-family: "Oswald", serif;
+    letter-spacing: .5px;
+
+    position: relative;
+}
+
+.cornerCap {
+    width: 45px;
+    height: 30px;
+
+    position: absolute;
+    top: -3px;
+    left: -3px;
+
+    visibility: hidden;
+}
+
+nav a .cornerCap {
+    visibility: visible;
+}
+
+
+.temp {
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temp2 {
+    width: 10%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+footer a {
+    width: 300px;
+    height: 50px;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: rgb(98, 207, 189);
+    border: 2px solid #000000;
+
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 1px;
+    margin-left: 15px;
+}
+
+.temp3 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fb8cc6;
+
+    align-items: center;
+
+    position: sticky;
+    top: 0px;
+}
+
+.temp4 {
+    width: 55%;
+    height: 100%;
+
+    padding-right: 10px;
+}
+
+.temp5 {
+    width: 70%;
+    height: 40%;
+    background-color: #9b5378;
+
+    float: right;
+}
+
+.temp5 img {
+    height: 50px;
+    width: 50px;
+
+    float: right;
+    margin: 5px;
+}
+
+.temp5 h1 {
+    float: right;
+    margin-right: 10px;
+}
+
+.contactContainer {
+    width: 45%;
+    height: 90%;
+    background-color: #9b5378;
+
+    margin: 10px;
+}
+
+form {
+    width: 95%;
+    height: 100%;
+    font-size: 18px;
+    font-family: "Oswald", serif;
+
+    margin: 10px;
+    display: inline-block;
+}
+
+textarea {
+    width: 99%;
+    height: 50%;
+    border: 2px solid black;
+    resize: none;
+    margin-top: 10px;
+
+    font-size: 14px;
+    font-family: "Oswald", serif;
+}
+
+input {
+    border: 2px solid black;
+    font-size: 14px;
+    font-family: "Oswald", serif;
+
+    margin-right: 20px;
+}
+
+.submitButton {
+    border: 2px solid black;
+    font-size: 14px;
+    font-family: "Oswald", serif;
+
+    float: right;
+}
+
+img {
+    width: 100px;
+    height: 100px;
 }
 
 .row {
@@ -127,21 +269,17 @@ a:active {
 }
 
 .column {
-    width: 33.3%;
+    width: 50%;
     height: 1000px;
     padding: 10px;
 }
 
 .column:nth-child(1) {
-    background-color: rgb(196, 155, 230);
+    background-color: rgb(110, 63, 75);
 }
 
 .column:nth-child(2) {
-    background-color: rgb(161, 96, 204);
-}
-
-.column:nth-child(3) {
-    background-color: rgb(123, 54, 155);
+    background-color: rgb(156, 84, 104);
 }
 
 .columnBox {
@@ -165,11 +303,6 @@ a:active {
 
 .div3 {
     width: 50%;
-}
-
-.emptySpace {
-    width: 100%;
-    height: 1000px;
 }
 
 .box {

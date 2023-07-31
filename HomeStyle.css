@@ -1,0 +1,156 @@
+h3 {
+    font-size: 22px;
+    font-family: "Oswald", serif;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+.main {
+    width: 100%;
+    height: 1800px;
+    background-color: rgb(43, 125, 145);
+}
+
+.intro {
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.projectDisplay {
+    width: calc(100% - 50px);
+    height: 100%;
+    /* border: 4px solid white; */
+    /* background-color: gray; */
+
+    display: flex;
+    justify-content: right;
+    align-items: top;
+}
+
+.quoteDisplay {
+    width: 38%;
+    height: 98.5%;
+    /* background-color: rgb(39, 39, 39); */
+    margin-right: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.quote {
+    width: 90%;
+    height: 31%;
+    border: 4px solid #fb8cc6;
+    /* background-color: rgb(104, 104, 104); */
+}
+
+.quote p {
+    font-size: 20px;
+    font-family: "Oswald", serif;
+    letter-spacing: 1px;
+    color: white;
+    padding: 0px 20px;
+}
+
+.project {
+    width: 18%;
+    height: 80%;
+    margin-right: 30px;
+    /* border: 4px solid #fb8cc6; */
+
+    display: block;
+}
+
+.projectDescription {
+    width: 95%;
+    height: 180px;
+    border: 4px solid #fb8cc6;
+    margin-top: 10px;
+
+    color: white;
+    font-size: 18px;
+    font-family: "Oswald", serif;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    transition: transform .3s;
+    z-index: 1;
+}
+
+.project img:hover {
+    transform: scale(1.1);
+}
+
+.projectHeader {
+    width: 100%;
+    height: 75px;
+    margin-top: 90px;
+    background-color: #fb8cc6;
+
+    display: flex;
+    align-items: center;
+}
+
+.projectHeaderLeft {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.projectHeaderRight {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid;
+    margin: 0px 50px;
+}
+
+.projectHeader h2 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+.divider {
+    width: 97.25%;
+    height: 10px;
+    background-color: #fb8cc6;
+    margin-top: 50px;
+}
+
+.currentProject {
+    width: 98%;
+    height: 800px;
+    background-color: rgb(204, 184, 203);
+    border: 4px solid #fb8cc6;
+    margin-top: 25px;
+    margin-left: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.currentProjectDescription {
+
+}
+
+.characterDisplay {
+
+}
