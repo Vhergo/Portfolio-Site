@@ -1,0 +1,39 @@
+.main {
+    width: 100%;
+    height: 2600px;
+    background-color: rgb(43, 125, 145);
+}
+
+.projects {
+    width: 100%;
+    height: 100%;
+    /* background-color: gray; */
+    margin-top: 50px;
+
+    display: block;
+}
+
+.project {
+    width: 90%;
+    height: 19%;
+    background-color: rgb(70, 70, 70);
+    margin-top: 50px;
+    margin-left: 100px;
+    float: center;
+}
+
+.divider {
+    width: 90%;
+    height: 10px;
+    background-color: #fb8cc6;
+    margin-top: 50px;
+    margin-left: 100px
+}
+
+.divider2 {
+    width: 90%;
+    height: 4px;
+    background-color: #fb8cc6;
+    margin-top: 50px;
+    margin-left: 100px
+}
