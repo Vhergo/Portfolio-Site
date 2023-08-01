@@ -135,22 +135,22 @@ h3 {
 }
 
 .currentProject {
-    width: 98%;
+    width: 60%;
     height: 800px;
     background-color: rgb(204, 184, 203);
     border: 4px solid #fb8cc6;
     margin-top: 25px;
-    margin-left: 15px;
+    margin-left: 400px;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.currentProjectDescription {
+/* .currentProjectDescription {
 
 }
 
 .characterDisplay {
 
-}
+} */
