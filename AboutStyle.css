@@ -1,0 +1,175 @@
+.main {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(43, 125, 145);
+}
+
+.projects {
+    width: 100%;
+    height: 100%;
+    /* background-color: gray; */
+    margin-top: 20px;
+
+    display: block;
+}
+
+.aboutMe {
+    width: 90%;
+    height: 100%;
+    /* background-color: rgb(70, 70, 70); */
+    /* border: 4px solid #ffffff; */
+    margin-top: 50px;
+    margin-left: 100px;
+
+    display: inline-block;
+}
+
+.intro {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    border: 4px solid #ffffff;
+}
+
+.introBox {
+    width: 60%;
+    height: 80%;
+    /* border: 4px solid #fb8cc6; */
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.skills {
+    width: 35%;
+    height: 76.5%;
+    border: 4px solid #fb8cc6;
+    margin-right: 5%;
+    margin-top: 11%;
+
+    color: white;
+    font-size: 18px;
+    font-family: "Oswald", serif;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+
+.introDescription {
+    width: 60%;
+    height: 100%;
+    border: 4px solid #fb8cc6;
+
+    color: white;
+    font-size: 24px;
+    font-family: "Oswald", serif;
+    letter-spacing: 1px;
+    padding: 0px 25px;
+}
+
+.introImage {
+    width: 35%;
+    height: 80%;
+    margin-right: 2.5%;
+    /* background-color: gray; */
+    /* border: 4px solid #fb8cc6; */
+}
+
+.introImage img {
+    width: 80%;
+    height: 100%;
+    float: right;
+    
+    clip-path: polygon(
+        25% 0%, 
+        100% 0%, 
+        100% 100%, 
+        25% 100%, 
+        0% 50%);
+}
+
+.introImage img:hover {
+    transform: scale(1.05);
+}
+
+.qualifications {
+    width: 100%;
+    height: 50%;
+    border: 2px solid white;
+
+    display: block;
+}
+
+.experience {
+    width: 50%;
+    height: 20%;
+    border: 2px solid white;
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.experience h2 {
+    color: white;
+    font-size: 28px;
+    font-family: "Oswald", serif;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+.resume {
+    width: 100%;
+    height: 6%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-family: "Oswald", serif;
+
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 5px;
+
+    border: 4px solid white
+}
+
+.resume a {
+    width: 10%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.resume:hover {
+    transform: scale(1.1);
+}
+
+.resume:active {
+    background-color: rgb(7, 61, 65);
+}
+
+h3 {
+    font-size: 26px;
+    font-family: "Oswald", serif;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    color: white;
+}
+
+.divider {
+    width: 90%;
+    height: 10px;
+    background-color: #fb8cc6;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.divider2 {
+    width: 90%;
+    height: 4px;
+    background-color: #fb8cc6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
