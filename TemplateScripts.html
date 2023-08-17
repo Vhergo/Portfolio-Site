@@ -45,7 +45,7 @@
 
             <div onclick="scrollToPosition()" class="templateSection">
                 <h2 style="color: rgb(35, 64, 73); margin: 20px 0px; text-decoration: underline;"> SCRIPTS </h2>
-                <details onclick="scrollToPosition()" class="scriptGroup">
+                <details onclick="scrollToPosition(); closeAllChildrenDetails(this);" class="scriptGroup">
                     <summary class="titleSummary"> Player Scripts: </summary>
                     <div class="templateList">
                         <div class="templateRow">
@@ -88,7 +88,7 @@
                     </div>
                 </details>
 
-                <details onclick="scrollToPosition()" class="scriptGroup">
+                <details onclick="scrollToPosition(); closeAllChildrenDetails(this);" class="scriptGroup">
                     <summary class="titleSummary"> Enemy Scripts: </summary>
                     <div class="templateList">
                         <div class="templateRow">
@@ -121,7 +121,7 @@
                     </div>
                 </details>
 
-                <details onclick="scrollToPosition()" class="scriptGroup">
+                <details onclick="scrollToPosition(); closeAllChildrenDetails(this);" class="scriptGroup">
                     <summary class="titleSummary"> Other Scripts: </summary>
                     <div class = "templateList">
                         <div class="templateRow">

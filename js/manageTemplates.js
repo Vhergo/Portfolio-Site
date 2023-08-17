@@ -66,3 +66,11 @@ function closeAllOtherDetails(clickedDetails) {
     });
 }
 
+function closeAllChildrenDetails(clickedParentDetails) {
+    // const childrenDetails = clickedParentDetails.querySelectorAll('.templateRow details');
+    // childrenDetails.forEach(details => {
+    //     if (details.hasAttribute('open')) {
+    //         details.removeAttribute('open');
+    //     }
+    // });
+}
