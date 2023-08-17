@@ -12,18 +12,18 @@ const other1 = document.getElementById('weaponSO');
 const other2 = document.getElementById('generateEnemies');
 const other3 = document.getElementById('spawnManager');
 
-const playerPath1 = '/TemplateScripts/Player/Player.cs';
-const playerPath2 = '/TemplateScripts/Player/PlayerMovement.cs';
-const playerPath3 = '/TemplateScripts/Player/PlayerCombat.cs';
-const playerPath4 = '/TemplateScripts/Player/PlayerAnimation.cs';
+const playerPath1 = './TemplateScripts/Player/Player.cs';
+const playerPath2 = './TemplateScripts/Player/PlayerMovement.cs';
+const playerPath3 = './TemplateScripts/Player/PlayerCombat.cs';
+const playerPath4 = './TemplateScripts/Player/PlayerAnimation.cs';
 
-const enemyPath1 = '/TemplateScripts/Enemy/BoomkinAI.cs';
-const enemyPath2 = '/TemplateScripts/Enemy/SentinelAI.cs';
-const enemyPath3 = '/TemplateScripts/Enemy/JuggernautAI.cs';
+const enemyPath1 = './TemplateScripts/Enemy/BoomkinAI.cs';
+const enemyPath2 = './TemplateScripts/Enemy/SentinelAI.cs';
+const enemyPath3 = './TemplateScripts/Enemy/JuggernautAI.cs';
 
-const otherPath1 = '/TemplateScripts/WeaponData/WeaponDataSO.cs';
-const otherPath2 = '/TemplateScripts/Other/GenerateEnemies.cs';
-const otherPath3 = '/TemplateScripts/Other/SpawnManager.cs';
+const otherPath1 = './TemplateScripts/WeaponData/WeaponDataSO.cs';
+const otherPath2 = './TemplateScripts/Other/GenerateEnemies.cs';
+const otherPath3 = './TemplateScripts/Other/SpawnManager.cs';
 
 async function loadScriptContent(url, placeholder) {
     const loadedFile = await fetch(url);
