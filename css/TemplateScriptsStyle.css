@@ -5,9 +5,9 @@ body {
     align-items: center;
 }
 
-header {
+/* header {
     position: relative;
-}
+} */
 
 /* !important */
 .buttonCustom {
@@ -17,12 +17,12 @@ header {
 }
 
 .buttonCustom:hover {
-    background-color: rgb(91, 184, 207) !important;
+    background-color: rgb(107, 193, 199) !important;
 }
 
 .templateSection {
     width: 85%;
-    height: 900px;
+    height: 800px;
     background-color: #f1c9de;
     border: 2px solid rgb(35, 64, 73);
     margin-top: 30px;
