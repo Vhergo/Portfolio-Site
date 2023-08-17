@@ -53,5 +53,5 @@ function copyText(scriptID) {
 
 // scroll to show entire script section
 function scrollToPosition() {
-    window.scrollTo({ top: 295, behavior: 'smooth'});
+    window.scrollTo({ top: 287, behavior: 'smooth'});
 }
