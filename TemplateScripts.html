@@ -4,9 +4,9 @@
             <title> Bemister Tessema: Scripts </title>
             <link rel="icon" type="image/png" href="./Images/sdsLogoTransparent.png" />
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-            <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
             <link rel="stylesheet" type="text/css" href="css/TemplateScriptsStyle.css">
             <link rel="stylesheet" type="text/css" href="css/ExtraStyles.css">
+            <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Oswald">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -44,14 +44,14 @@
             </div>
 
             <div onclick="scrollToPosition()" class="templateSection">
-                <h2 style="color: rgb(35, 64, 73);"> SCRIPTS </h2>
+                <h2 style="color: rgb(35, 64, 73); margin: 20px 0px; text-decoration: underline;"> SCRIPTS </h2>
                 <details onclick="scrollToPosition()" class="scriptGroup">
-                    <summary class="titleSummary"> Player Scripts </summary>
+                    <summary class="titleSummary"> Player Scripts: </summary>
                     <div class="templateList">
                         <div class="templateRow">
-                            <details onclick="scrollToPosition()"> 
+                            <details onclick="scrollToPosition(); closeAllOtherDetails(this);"> 
                                 <summary> Player 
-                                    <button onclick="copyText('playerScript')" style="float: right"> 
+                                    <button onclick="copyText('playerScript')"> 
                                         <i class="fa-regular fa-copy"></i>
                                      </button>
                                 </summary>
@@ -59,27 +59,27 @@
                             </details>
                         </div>
                         <div class="templateRow">
-                            <details onclick="scrollToPosition()">
+                            <details onclick="scrollToPosition(); closeAllOtherDetails(this);">
                                 <summary> Player Movement 
-                                    <button onclick="copyText('playerMovementScript')" style="float: right"> 
+                                    <button onclick="copyText('playerMovementScript')"> 
                                         <i class="fa-regular fa-copy"></i>
                                      </button>                                </summary>
                                 <pre id="playerMovementScript"></pre>
                             </details>
                         </div>
                         <div class="templateRow">
-                            <details onclick="scrollToPosition()">
+                            <details onclick="scrollToPosition(); closeAllOtherDetails(this);">
                                 <summary> Player Combat 
-                                    <button onclick="copyText('playerCombatScript')" style="float: right"> 
+                                    <button onclick="copyText('playerCombatScript')"> 
                                         <i class="fa-regular fa-copy"></i>
                                      </button>                                </summary>
                                 <pre id="playerCombatScript"></pre>
                             </details>
                         </div>
                         <div class="templateRow">
-                            <details onclick="scrollToPosition()">
+                            <details onclick="scrollToPosition(); closeAllOtherDetails(this);">
                                 <summary> Player Animation  
-                                    <button onclick="copyText('playerAnimationScript')" style="float: right"> 
+                                    <button onclick="copyText('playerAnimationScript')"> 
                                         <i class="fa-regular fa-copy"></i>
                                      </button>                                </summary>
                                 <pre id="playerAnimationScript"></pre>
@@ -89,30 +89,30 @@
                 </details>
 
                 <details onclick="scrollToPosition()" class="scriptGroup">
-                    <summary class="titleSummary"> Enemy Scripts </summary>
+                    <summary class="titleSummary"> Enemy Scripts: </summary>
                     <div class="templateList">
                         <div class="templateRow">
-                            <details onclick="scrollToPosition()"> 
+                            <details onclick="scrollToPosition(); closeAllOtherDetails(this);"> 
                                 <summary> Platformer Follow Enemy 
-                                    <button onclick="copyText('boomkinScript')" style="float: right"> 
+                                    <button onclick="copyText('boomkinScript')"> 
                                         <i class="fa-regular fa-copy"></i>
                                      </button>                                </summary>
                                 <pre id="boomkinScript"></pre>
                             </details>
                         </div>
                         <div class="templateRow">
-                            <details onclick="scrollToPosition()">
+                            <details onclick="scrollToPosition(); closeAllOtherDetails(this);">
                                 <summary> Basic Follow Enemy  
-                                    <button onclick="copyText('juggernautScript')" style="float: right"> 
+                                    <button onclick="copyText('juggernautScript')"> 
                                         <i class="fa-regular fa-copy"></i>
                                      </button>                                </summary>
                                 <pre id="juggernautScript"></pre>
                             </details>
                         </div>
                         <div class="templateRow">
-                            <details onclick="scrollToPosition()">
+                            <details onclick="scrollToPosition(); closeAllOtherDetails(this);">
                                 <summary> Stationary Enemy  
-                                    <button onclick="copyText('sentinelScript')" style="float: right"> 
+                                    <button onclick="copyText('sentinelScript')"> 
                                         <i class="fa-regular fa-copy"></i>
                                      </button>                                </summary>
                                 <pre id="sentinelScript"></pre>
@@ -122,30 +122,30 @@
                 </details>
 
                 <details onclick="scrollToPosition()" class="scriptGroup">
-                    <summary class="titleSummary"> Other Scripts </summary>
+                    <summary class="titleSummary"> Other Scripts: </summary>
                     <div class = "templateList">
                         <div class="templateRow">
-                            <details onclick="scrollToPosition()"> 
+                            <details onclick="scrollToPosition(); closeAllOtherDetails(this);"> 
                                 <summary> Weapon Scriptable Object
-                                    <button onclick="copyText('weaponSO')" style="float: right"> 
+                                    <button onclick="copyText('weaponSO')"> 
                                         <i class="fa-regular fa-copy"></i>
                                      </button>                                </summary>
                                 <pre id="weaponSO"></pre>
                             </details>
                         </div>
                         <div class="templateRow">
-                            <details onclick="scrollToPosition()"> 
+                            <details onclick="scrollToPosition(); closeAllOtherDetails(this);"> 
                                 <summary> Generate Enemies
-                                    <button onclick="copyText('generateEnemies')" style="float: right"> 
+                                    <button onclick="copyText('generateEnemies')"> 
                                         <i class="fa-regular fa-copy"></i>
                                      </button>                                </summary>
                                 <pre id="generateEnemies"></pre>
                             </details>
                         </div>
                         <div class="templateRow">
-                            <details onclick="scrollToPosition()"> 
+                            <details onclick="scrollToPosition(); closeAllOtherDetails(this);"> 
                                 <summary> Spawn Manager
-                                    <button onclick="copyText('spawnManager')" style="float: right"> 
+                                    <button onclick="copyText('spawnManager')"> 
                                         <i class="fa-regular fa-copy"></i>
                                      </button>                                </summary>
                                 <pre id="spawnManager"></pre>
@@ -177,6 +177,10 @@
                 </div>
                 <div class="temp4">
                     <footer>
+                        <a href="https://www.linkedin.com/in/bemister-tessema/" target="_blank"> 
+                            <i class="fa-brands fa-linkedin" style="font-size: 36px;"></i>
+                            <h2> LinkedIn </h2>
+                        </a>
                         <a href="https://vhergo.itch.io/" target="_blank">
                             <i class="fa-brands fa-itch-io" style="font-size: 36px;"></i>
                             <h2> Itch.io </h2>

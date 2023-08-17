@@ -55,3 +55,14 @@ function copyText(scriptID) {
 function scrollToPosition() {
     window.scrollTo({ top: 187, behavior: 'smooth'});
 }
+
+function closeAllOtherDetails(clickedDetails) {
+    const allDetails = document.querySelectorAll('.scriptGroup details');
+    
+    allDetails.forEach(details => {
+        if (details !== clickedDetails && details.parentElement !== clickedDetails.parentElement) {
+            details.removeAttribute('open');
+        }
+    });
+}
+

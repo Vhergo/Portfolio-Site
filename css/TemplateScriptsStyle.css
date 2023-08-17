@@ -95,13 +95,16 @@ body {
 }
 
 summary button {
+    color: rgb(35, 64, 73);
+    float: right;
+    
     background: none;
     border: none;
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 
 summary button:hover {
-    transform: scale(1.5);
+    transform: scale(1.7);
 }
 
 .divider {
