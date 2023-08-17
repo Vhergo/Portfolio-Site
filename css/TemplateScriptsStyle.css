@@ -24,14 +24,14 @@ header {
     width: 85%;
     height: 900px;
     background-color: #f1c9de;
-    border: 2px solid black;
+    border: 2px solid rgb(35, 64, 73);
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: auto;
 
-    box-shadow: inset 0 -25px black;
+    box-shadow: inset 0 -25px rgb(35, 64, 73);
     z-index: 1;
 }
 
@@ -56,7 +56,7 @@ header {
 .scriptGroup {
     width: 95%;
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 2px solid rgb(35, 64, 73);
     padding: 15px;
     margin-bottom: 30px;
 
@@ -68,6 +68,7 @@ header {
 .titleSummary {
     font-size: 30px; 
     font-family: 'Oswald', serif;
+    color: rgb(35, 64, 73);
 }
 
 .templateList {
@@ -81,10 +82,11 @@ header {
 
 .templateRow {
     width: 100%;
-    border: 3px solid black;
+    border: 3px solid rgb(35, 64, 73);
     background-color: #c792ae;
     padding: 10px;
     box-sizing: border-box;
+    color: rgb(35, 64, 73);
 }
 
 .templateRow pre {
