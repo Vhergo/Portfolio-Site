@@ -1,0 +1,120 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    position: relative;
+}
+
+/* !important */
+.buttonCustom {
+    background-color: rgb(43, 125, 145) !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+.buttonCustom:hover {
+    background-color: rgb(91, 184, 207) !important;
+}
+
+.templateSection {
+    width: 85%;
+    height: 900px;
+    background-color: #f1c9de;
+    border: 2px solid black;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+
+    box-shadow: inset 0 -25px black;
+    z-index: 1;
+}
+
+
+.templateSection details {
+    align-self: center;
+}
+
+.templateSection::-webkit-scrollbar-thumb {
+    background-color: rgb(43, 125, 145);
+    border: 5px solid #f1c9de;
+}
+
+.templateSection::-webkit-scrollbar-track {
+    background-color: #f1c9de;
+}
+
+.templateSection::-webkit-scrollbar {
+    background-color: rgb(43, 125, 145);
+}
+
+.scriptGroup {
+    width: 95%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 15px;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleSummary {
+    font-size: 30px; 
+    font-family: 'Oswald', serif;
+}
+
+.templateList {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.templateRow {
+    width: 100%;
+    border: 3px solid black;
+    background-color: #c792ae;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.templateRow pre {
+    width: 100%;
+    overflow: auto;
+}
+
+summary button {
+    background: none;
+    border: none;
+    transform: scale(1.2);
+}
+
+summary button:hover {
+    transform: scale(1.5);
+}
+
+.divider {
+    width: 90%;
+    height: 10px;
+    background-color: #fb8cc6;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.divider2 {
+    width: 90%;
+    height: 4px;
+    background-color: #fb8cc6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
