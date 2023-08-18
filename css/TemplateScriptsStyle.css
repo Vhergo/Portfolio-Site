@@ -11,7 +11,7 @@ body {
 
 /* !important */
 .buttonCustom {
-    background-color: rgb(43, 125, 145) !important;
+    background-color: rgb(60, 138, 190) !important;
     border: none !important;
     border-radius: 0px !important;
 }
@@ -23,7 +23,7 @@ body {
 .templateSection {
     width: 85%;
     height: 800px;
-    background-color: #f1c9de;
+    background-color: #e9bb91;
     border: 2px solid rgb(35, 64, 73);
     margin-top: 30px;
     display: flex;
@@ -41,16 +41,16 @@ body {
 }
 
 .templateSection::-webkit-scrollbar-thumb {
-    background-color: rgb(43, 125, 145);
-    border: 5px solid #f1c9de;
+    background-color: rgb(60, 138, 190);
+    border: 5px solid #e9bb91;
 }
 
 .templateSection::-webkit-scrollbar-track {
-    background-color: #f1c9de;
+    background-color: #e9bb91;
 }
 
 .templateSection::-webkit-scrollbar {
-    background-color: rgb(43, 125, 145);
+    background-color: rgb(60, 138, 190);
 }
 
 .scriptGroup {
@@ -83,7 +83,7 @@ body {
 .templateRow {
     width: 100%;
     border: 3px solid rgb(35, 64, 73);
-    background-color: #c792ae;
+    background-color: #e9a86b;
     padding: 10px;
     box-sizing: border-box;
     color: rgb(35, 64, 73);
@@ -110,7 +110,7 @@ summary button:hover {
 .divider {
     width: 90%;
     height: 10px;
-    background-color: #fb8cc6;
+    background-color: #ec8f42;
     margin-top: 50px;
     margin-left: 100px;
 }
@@ -118,7 +118,7 @@ summary button:hover {
 .divider2 {
     width: 90%;
     height: 4px;
-    background-color: #fb8cc6;
+    background-color: #ec8f42;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 100px;
