@@ -1,0 +1,19 @@
+@media only screen and (min-width: 480px) {
+    body {
+      background-color: rgb(109, 175, 219);
+    }
+
+    .main {
+        background-color: rgb(109, 175, 219);
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    body {
+      background-color: rgb(60, 138, 190);
+    }
+
+    .main {
+        background-color: rgb(60, 138, 190);
+    }
+}
