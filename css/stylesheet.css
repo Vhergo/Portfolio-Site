@@ -264,6 +264,10 @@ input {
     float: right;
 }
 
+.submitButton:hover {
+    transform: scale(1.1);
+}
+
 img {
     width: 100px;
     height: 100px;
